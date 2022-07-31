@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  opacity: 0.9;
+  padding: 30px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url(/images/bg-intro-desktop.png);
+  background-size: cover;
+  background-color: hsl(0deg, 100%, 74%);
+}
+main .right {
+  width: 50%;
+  height: 100%;
+  display: block;
+}
+main .right .try {
+  display: block;
+  margin: 50px auto;
+  width: 520px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(248deg, 32%, 49%);
+  text-align: center;
+  padding-top: 15px;
+  margin-bottom: 17px;
+  color: #fff;
+}
+main .right .try span {
+  font-weight: 700;
+}
+main .right form {
+  display: block;
+  margin: 0px auto 100px;
+  padding: 10px 0 10px 0;
+  background-color: #fff;
+  width: 520px;
+  height: 440px;
+  border: none;
+  border-radius: 5px;
+}
+main .right form input {
+  display: block;
+  margin: 20px auto;
+  padding: 5px 0 5px 50px;
+  width: 450px;
+  height: 50px;
+  border: hsl(246deg, 25%, 77%) 1px solid;
+  border-radius: 5px;
+  color: hsl(249deg, 10%, 26%);
+  font-size: 16px;
+}
+main .right form input:active {
+  border: 1px solid hsl(249deg, 10%, 26%);
+  color: hsl(249deg, 10%, 26%);
+}
+main .right form button {
+  display: block;
+  margin: 20px auto;
+  background-color: hsl(154deg, 59%, 51%);
+  width: 450px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+}
+main .right form button a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+}
+main .right form .clicking {
+  color: hsl(246deg, 25%, 77%);
+  text-align: center;
+  margin-top: -10px;
+}
+main .right form .clicking span a {
+  text-decoration: none;
+  color: hsl(0deg, 100%, 74%);
+}
+main .left {
+  width: 50%;
+  height: 100%;
+}
+main .left .learn {
+  line-height: 2.9rem;
+  font-weight: 700;
+  font-size: 48px;
+  color: #fff;
+  display: block;
+  margin: 200px 100px 10px 160px;
+}
+main .left .see {
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.5rem;
+  margin: 0 100px 0 160px;
+}
+
+@media only screen and (max-width: 375px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+  }
+  .right {
+    width: 375px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  .right .try {
+    width: 90%;
+    margin: 0;
+    padding: 0;
+  }
+  .right form {
+    width: 375px;
+    margin: 0;
+    padding: 0;
+  }
+  .right form input {
+    width: 90%;
+  }
+  .right form button {
+    width: 90%;
+  }
+  .left {
+    margin: 0;
+  }
+}/*# sourceMappingURL=index.css.map */
